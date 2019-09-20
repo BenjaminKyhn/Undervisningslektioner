@@ -1,0 +1,7 @@
+Access Modifiers
+
+Der findes 4 forskellige typer access modifiers.
+1. public (alle har adgang)
+2. private (kun klassen har adgang)
+3. protected (kun denne package har adgang)
+4. default (class og package har adgang)
