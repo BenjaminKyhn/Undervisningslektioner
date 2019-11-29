@@ -1,12 +1,15 @@
 package Interfaces;
 
 public class Pokemon {
-    private String navn, type, gender, udviklesFra, udviklesTil;
+    private String navn, gender, udviklesFra, udviklesTil;
     private int nummerPokedex;
     private short skade;
 
-    public Pokemon(){
+    public Pokemon(){}
 
+    public boolean levende(){
+        // Logik implementeres
+        return false;
     }
 
     //toString-metoden vil normalt vise en reference
@@ -29,14 +32,6 @@ public class Pokemon {
 
     public void setNavn(String navn) {
         this.navn = navn;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public String getGender() {
